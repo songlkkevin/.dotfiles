@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  
+- clean: ['~']
+
+- link:
+    # zsh
+    ~/.zshrc: zshrc
+    # tmux
+    ~/.tmux.conf : tmux.conf
