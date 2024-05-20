@@ -14,7 +14,6 @@ antigen bundle sudo
 
 # Set the theme
 antigen theme romkatv/powerlevel10k
-cp $ZSH_BASE/p10k.zsh $HOME/.p10k.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
