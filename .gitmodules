@@ -4,5 +4,5 @@
 	ignore = dirty
 [submodule "antigen"]
 	path = antigen
-	url = git@github.com:zsh-users/antigen.git
+	url = https://github.com/zsh-users/antigen.git
 	branch = master
