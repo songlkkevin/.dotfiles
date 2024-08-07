@@ -5,7 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-ZSH_BASE=$HOME/dotfiles # Base directory for ZSH configuration
+ZSH_BASE=$HOME/.dotfiles # Base directory for ZSH configuration
 
 source $ZSH_BASE/antigen/antigen.zsh # Load Antigen
 
