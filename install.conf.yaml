@@ -14,3 +14,5 @@
     ~/.tmux.conf : tmux.conf
     #p10k
     ~/.p10k.zsh : p10k.zsh
+    #git
+    ~/.gitconfig : gitconfig
