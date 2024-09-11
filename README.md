@@ -16,7 +16,8 @@ Linkai's configuration of different tools on Linux.
 3. To set zsh to default shell, just run `chsh -s /bin/zsh` 
 
 ## description for each file
-- install.conf.yaml: configuration file for 
+- install.conf.yaml: configuration file for how to install all the dotfiles
 - zshrc: configuration manage plugs for zsh by antigen
 - tmux.conf: configuration file for tmux
 - p10k.zsh: configuration file for powerlevel10k
+- gitconfig: configuration file for git
