@@ -12,7 +12,7 @@
     ~/.zshrc: zshrc
     # tmux
     ~/.tmux.conf : tmux.conf
-    #p10k
+    # p10k
     ~/.p10k.zsh : p10k.zsh
-    #git
+    # git
     ~/.gitconfig : gitconfig
