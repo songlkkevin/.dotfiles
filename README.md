@@ -26,3 +26,4 @@ Linkai's configuration of different tools on Linux.
   - tmux.conf: configuration file for tmux
   - p10k.zsh: configuration file for powerlevel10k, a theme for zsh
   - gitconfig: configuration file for git
+  - nvim: directory for neovim configuration
