@@ -9,10 +9,10 @@
 
 - link:
     # zsh
-    ~/.zshrc: zshrc
+    ~/.zshrc: ./config/zshrc
     # tmux
-    ~/.tmux.conf : tmux.conf
+    ~/.tmux.conf : ./config/tmux.conf
     # p10k
-    ~/.p10k.zsh : p10k.zsh
+    ~/.p10k.zsh : ./config/p10k.zsh
     # git
-    ~/.gitconfig : gitconfig
+    ~/.gitconfig : ./config/gitconfig
