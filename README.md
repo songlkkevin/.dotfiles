@@ -18,7 +18,7 @@ Linkai's configuration of different tools on Linux.
 2. run `install.sh` to install all the configuration files
 3. To set zsh to default shell, just run `chsh -s /bin/zsh`
 
-## description for each file
+## Files structure
 
 - install.conf.yaml: configuration file for how to install all the dotfiles
 - ./config: all the specific configuration dotfiles are in this directory
