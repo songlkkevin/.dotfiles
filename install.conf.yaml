@@ -18,3 +18,7 @@
     ~/.gitconfig : ./config/gitconfig
     # neovim
     ~/.config/nvim : ./config/nvim
+    # tpm
+    ~/.tmux/plugins/tpm :
+      create: true
+      path: ./tpm

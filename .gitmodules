@@ -6,3 +6,6 @@
 	path = antigen
 	url = https://github.com/zsh-users/antigen.git
 	branch = master
+[submodule "tpm"]
+	path = tpm
+	url = https://github.com/tmux-plugins/tpm.git
