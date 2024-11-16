@@ -18,6 +18,8 @@ antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle z
 antigen bundle sudo
+antigen bundle tmux
+antigen bundle extract
 
 # Set the theme
 antigen theme romkatv/powerlevel10k
