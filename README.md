@@ -21,7 +21,6 @@ Linkai's configuration of different tools on Linux.
 
 1. clone this repository to your home directory
 2. run `install.sh` to install all the configuration files
-3. To set zsh to default shell, just run `chsh -s /bin/zsh`
 
 ## Files structure
 
