@@ -81,5 +81,14 @@ require("lazy").setup({
 		config = function ()
 			require("copilot_cmp").setup()
 		end
-	}
+	},
+
+    -- bufferline
+    {
+        "akinsho/nvim-bufferline.lua",
+        config = function()
+            require("config.nvim-bufferline")
+        end,
+        event = "BufRead",
+    },
 })

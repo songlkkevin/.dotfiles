@@ -30,5 +30,8 @@ vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 vim.keymap.set('v', '<', '<gv', opts)
 vim.keymap.set('v', '>', '>gv', opts)
 
+-- Hint: set switching buffers 
+vim.api.nvim_set_keymap('n', '<Tab>', ':BufferLineCycleNext<CR>', opts)
+
 -- nvimTree
 vim.keymap.set('n', '<A-m>', ':NvimTreeToggle<CR>', opts)
