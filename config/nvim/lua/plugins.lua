@@ -91,4 +91,11 @@ require("lazy").setup({
         end,
         event = "BufRead",
     },
+
+    -- auto-pairs
+    {
+        "windwp/nvim-autopairs",
+        event = "InsertEnter",
+        config = true
+    },
 })
