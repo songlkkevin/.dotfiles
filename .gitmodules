@@ -1,14 +1,9 @@
-[submodule "dotbot"]
-	path = dotbot
-	url = https://github.com/anishathalye/dotbot
-	ignore = dirty
-[submodule "antigen"]
-	path = antigen
-	url = https://github.com/zsh-users/antigen.git
-	branch = master
-[submodule "tpm"]
-	path = tpm
-	url = https://github.com/tmux-plugins/tpm.git
 [submodule "config/nvim"]
 	path = config/nvim
 	url = https://github.com/LazyVim/starter.git
+[submodule "tools/antigen"]
+	path = tools/antigen
+	url = https://github.com/zsh-users/antigen.git
+[submodule "tools/dotbot"]
+	path = tools/dotbot
+	url = https://github.com/anishathalye/dotbot.git

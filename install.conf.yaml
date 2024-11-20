@@ -3,7 +3,7 @@
       relink: true
 
 - shell:
-  - [chsh -s $(which zsh), Making zsh the default shell]
+  - [chsh -s $(which zsh), Making zsh the default shell (need to run interactively)]
   - [git submodule update --init --recursive, Installing submodules]
   
 - clean: ['~']
@@ -18,8 +18,6 @@
     # git
     ~/.gitconfig : ./config/gitconfig
     # neovim
-    ~/.config/nvim : ./config/nvim
-    # tpm
-    ~/.tmux/plugins/tpm :
+    ~/.config/nvim : 
       create: true
-      path: ./tpm
+      path: ./config/nvim

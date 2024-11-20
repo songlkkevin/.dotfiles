@@ -4,9 +4,6 @@ Linkai's configuration of different tools on Linux.
 
 # TODO
 
-1. compliment plugins for nvim
-2. add plugins for tmux
-
 ## prerequisite and useful software
 
 - git
