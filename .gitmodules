@@ -7,3 +7,7 @@
 [submodule "tools/dotbot"]
 	path = tools/dotbot
 	url = https://github.com/anishathalye/dotbot.git
+[submodule "config/private"]
+	path = config/private
+	url = git@github.com:songlkkevin/private-dotfiles.git
+  branch = main

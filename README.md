@@ -4,6 +4,10 @@ Linkai's configuration of different tools on Linux.
 
 # TODO
 
+## version control
+
+For submodules, need to update them manually periodically.
+
 ## prerequisite and useful software
 
 - git
@@ -26,5 +30,6 @@ Linkai's configuration of different tools on Linux.
   - zshrc: configuration manage plugs for zsh by antigen
   - tmux.conf: configuration file for tmux
   - p10k.zsh: configuration file for powerlevel10k, a theme for zsh
-  - gitconfig: configuration file for git
   - nvim: directory for neovim configuration
+  - private: directory for private configuration
+- ./deps: some necessary dependencies

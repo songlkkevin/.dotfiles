@@ -3,8 +3,13 @@
       relink: true
 
 - shell:
-  - [chsh -s $(which zsh), Making zsh the default shell (need to run interactively)]
+  - command: chsh -s $(which zsh)
+    stdin: true
+    stdout: true
+    stderr: true
+    description: Making zsh the default shell
   - [git submodule update --init --recursive, Installing submodules]
+  - [git submodule update --remote config/private, Update ./config/private to the latest version]
   
 - clean: ['~']
 
@@ -16,7 +21,7 @@
     # p10k
     ~/.p10k.zsh : ./config/p10k.zsh
     # git
-    ~/.gitconfig : ./config/gitconfig
+    ~/.gitconfig : ./config/private/gitconfig
     # neovim
     ~/.config/nvim : 
       create: true
