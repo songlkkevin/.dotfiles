@@ -5,7 +5,6 @@
 [submodule "tools/antigen"]
 	path = tools/antigen
 	url = https://github.com/zsh-users/antigen.git
-  branch = develop
 [submodule "tools/dotbot"]
 	path = tools/dotbot
 	url = https://github.com/anishathalye/dotbot.git
