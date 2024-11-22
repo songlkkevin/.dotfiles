@@ -31,5 +31,6 @@ For submodules, need to update them manually periodically.
   - tmux.conf: configuration file for tmux
   - p10k.zsh: configuration file for powerlevel10k, a theme for zsh
   - nvim: directory for neovim configuration
+  - gdbinit: configuration for gdb
   - private: directory for private configuration
 - ./deps: some necessary dependencies

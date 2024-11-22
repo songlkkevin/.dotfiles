@@ -26,3 +26,5 @@
     ~/.config/nvim : 
       create: true
       path: ./config/nvim
+    # gdb
+    ~/.gdbinit : ./config/gdbinit

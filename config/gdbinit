@@ -1,0 +1,15 @@
+# refresh the screen after every r, c, n
+define c 
+  continue
+  refresh
+end
+
+define n
+  next
+  refresh
+end
+
+define r
+  run
+  refresh
+end
