@@ -9,7 +9,7 @@
     stderr: true
     description: Making zsh the default shell
   - [git submodule update --init --recursive, Installing submodules]
-  - [git submodule update --remote config/private, Update ./config/private to the latest version]
+  - [git submodule update --remote, Update all the submodules to the latest version]
   
 - clean: ['~']
 
