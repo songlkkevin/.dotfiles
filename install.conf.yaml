@@ -27,4 +27,7 @@
       create: true
       path: ./config/nvim
     # gdb
-    ~/.gdbinit : ./config/gdbinit
+    ~/.config/gdb-dashboard/init : 
+      create: true
+      path: ./config/gdb-dashboard-init
+    ~/.gdbinit : ./config/gdb-dashboard/.gdbinit
