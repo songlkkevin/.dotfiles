@@ -4,10 +4,6 @@ Linkai's configuration of different tools on Linux.
 
 # TODO
 
-## version control
-
-For submodules, need to update them manually periodically.
-
 ## prerequisite and useful software
 
 - git
