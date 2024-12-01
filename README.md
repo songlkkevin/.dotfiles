@@ -17,7 +17,7 @@ Linkai's configuration of different tools on Linux.
 ## how to use
 
 1. clone this repository to your home directory
-2. run `install.sh` to install all the configuration files
+2. run `./install` to install all the configuration files
 
 ## Files structure
 
