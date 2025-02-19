@@ -1,7 +1,7 @@
 [submodule "config/nvim"]
 	path = config/nvim
 	url = https://github.com/LazyVim/starter.git
-  branch = main
+	branch = main
 [submodule "tools/antigen"]
 	path = tools/antigen
 	url = https://github.com/zsh-users/antigen.git
@@ -11,7 +11,7 @@
 [submodule "config/private"]
 	path = config/private
 	url = git@github.com:songlkkevin/private-dotfiles.git
-  branch = main
+	branch = main
 [submodule "config/gdb-dashboard"]
 	path = config/gdb-dashboard
 	url = https://github.com/cyrus-and/gdb-dashboard.git
