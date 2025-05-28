@@ -20,12 +20,10 @@
     ~/.tmux.conf : ./config/tmux.conf
     # p10k
     ~/.p10k.zsh : ./config/p10k.zsh
-    # git
-    ~/.gitconfig : ./config/private/gitconfig
     # neovim
-    ~/.config/nvim : 
-      create: true
-      path: ./config/nvim
+    # ~/.config/nvim : 
+    #  create: true
+    #  path: ./config/nvim
     # gdb
     ~/.config/gdb-dashboard/init : 
       create: true
