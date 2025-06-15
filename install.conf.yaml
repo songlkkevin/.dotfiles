@@ -21,7 +21,7 @@
     # p10k
     ~/.p10k.zsh : ./config/p10k.zsh
     # git
-    ~/.gitconfig : ./config/private/gitconfig
+    ~/.gitconfig : ./config/gitconfig
     # neovim
     ~/.config/nvim : 
       create: true
