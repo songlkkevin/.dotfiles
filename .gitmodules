@@ -2,9 +2,6 @@
 	path = config/nvim
 	url = https://github.com/LazyVim/starter.git
 	branch = main
-[submodule "tools/antigen"]
-	path = tools/antigen
-	url = https://github.com/zsh-users/antigen.git
 [submodule "tools/dotbot"]
 	path = tools/dotbot
 	url = https://github.com/anishathalye/dotbot.git
