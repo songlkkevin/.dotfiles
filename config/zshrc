@@ -36,6 +36,7 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-history-substring-search
 zinit light zsh-users/zsh-autosuggestions
 zinit light songlkkevin/zsh-auto-venv
+zinit light MichaelAquilina/zsh-you-should-use
 
 # Theme
 zinit light romkatv/powerlevel10k
