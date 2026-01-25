@@ -10,6 +10,13 @@
     description: Making zsh the default shell
   - [git submodule update --init --recursive, Installing submodules]
   - [git submodule update --remote, Update all the submodules to the latest version]
+  - command: |
+      mkdir -p ./config/nvim/after/plugin
+      cat >> ./config/nvim/lua/config/options.lua <<'EOF'
+      -- Use system clipboard for all yank/put operations.
+      vim.opt.clipboard = "unnamedplus"
+      EOF
+    description: Ensure Neovim uses the system clipboard
   
 - clean: ['~']
 
